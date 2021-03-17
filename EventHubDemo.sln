@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubDemoSender", "EventHubDemoSender\EventHubDemoSender.csproj", "{C7E08C3C-962D-4FBC-9D40-0123613F69DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubDemoReceiver", "EventHubDemoReceiver\EventHubDemoReceiver.csproj", "{ED67AE23-7A4E-43DA-BE73-505EB77756C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventProcessor", "EventProcessor\EventProcessor.csproj", "{76F5E360-60F8-4941-8844-249EE493889A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7E08C3C-962D-4FBC-9D40-0123613F69DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E08C3C-962D-4FBC-9D40-0123613F69DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E08C3C-962D-4FBC-9D40-0123613F69DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E08C3C-962D-4FBC-9D40-0123613F69DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED67AE23-7A4E-43DA-BE73-505EB77756C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED67AE23-7A4E-43DA-BE73-505EB77756C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED67AE23-7A4E-43DA-BE73-505EB77756C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED67AE23-7A4E-43DA-BE73-505EB77756C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F5E360-60F8-4941-8844-249EE493889A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F5E360-60F8-4941-8844-249EE493889A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F5E360-60F8-4941-8844-249EE493889A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F5E360-60F8-4941-8844-249EE493889A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
