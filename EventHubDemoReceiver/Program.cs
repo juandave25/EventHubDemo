@@ -10,10 +10,10 @@ namespace EventHubDemoReceiver
 {
     class Program
     {
-        private const string EhubNamespaceConnectionString = "Endpoint=sb://starbuckseventhub.servicebus.windows.net/;SharedAccessKeyName=CardStatusPolicy;SharedAccessKey=biI/rxjpIClJezG6aEg//5uQyudZ0PAchPokyzILimg=;EntityPath=cardstatuseventhub";
-        private const string EventHubName = "cardstatuseventhub";
-        private const string BlobStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=starbuckseventhubstorage;AccountKey=mEmg0yo35k3vhCwEsFFyMABEL0o2PT53Gz3r7reKKNNtDPcR8NhsxwKbekhiBIMR9exqH4MF3AoA66H8dZNtuA==;EndpointSuffix=core.windows.net";
-        private const string BlobContainerName = "example-container";
+        private const string EhubNamespaceConnectionString = "";
+        private const string EventHubName = "";
+        private const string BlobStorageConnectionString = "";
+        private const string BlobContainerName = "";
         
         static async Task Main(string[] args)
         {

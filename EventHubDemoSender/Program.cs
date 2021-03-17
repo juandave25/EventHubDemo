@@ -10,8 +10,8 @@ namespace EventHubDemoSender
 {
     class Program
     {
-        private const string ConnectionString = "Endpoint=sb://starbuckseventhub.servicebus.windows.net/;SharedAccessKeyName=CardStatusPolicy;SharedAccessKey=biI/rxjpIClJezG6aEg//5uQyudZ0PAchPokyzILimg=;EntityPath=cardstatuseventhub";
-        private const string EventHubName = "cardstatuseventhub";
+        private const string ConnectionString = "NameSpace ConnectionString";
+        private const string EventHubName = "Event Hub Name";
         static async Task Main(string[] args)
         {
             Console.WriteLine("Event Hub Sender");
